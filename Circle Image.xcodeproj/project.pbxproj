@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A2B2061A2C9C0A00394696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B2051A2C9C0A00394696 /* Foundation.framework */; };
+		C2A2B2081A2C9C0A00394696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B2071A2C9C0A00394696 /* CoreGraphics.framework */; };
+		C2A2B20A1A2C9C0A00394696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B2091A2C9C0A00394696 /* UIKit.framework */; };
+		C2A2B2101A2C9C0B00394696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A2B20E1A2C9C0B00394696 /* InfoPlist.strings */; };
+		C2A2B2121A2C9C0B00394696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B2111A2C9C0B00394696 /* main.m */; };
+		C2A2B2161A2C9C0B00394696 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B2151A2C9C0B00394696 /* JSAppDelegate.m */; };
+		C2A2B2181A2C9C0B00394696 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A2B2171A2C9C0B00394696 /* Images.xcassets */; };
+		C2A2B21F1A2C9C0B00394696 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B21E1A2C9C0B00394696 /* XCTest.framework */; };
+		C2A2B2201A2C9C0B00394696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B2051A2C9C0A00394696 /* Foundation.framework */; };
+		C2A2B2211A2C9C0B00394696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A2B2091A2C9C0A00394696 /* UIKit.framework */; };
+		C2A2B2291A2C9C0B00394696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A2B2271A2C9C0B00394696 /* InfoPlist.strings */; };
+		C2A2B22B1A2C9C0B00394696 /* Circle_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B22A1A2C9C0B00394696 /* Circle_ImageTests.m */; };
+		C2A2B2361A2C9C5600394696 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B2351A2C9C5600394696 /* RootViewController.m */; };
+		C2A2B2391A2C9D2100394696 /* UIImage+water.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2B2381A2C9D2100394696 /* UIImage+water.m */; };
+		C2A2B23B1A2C9DC000394696 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A2B23A1A2C9DC000394696 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A2B2221A2C9C0B00394696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A2B1FA1A2C9C0A00394696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2B2011A2C9C0A00394696;
+			remoteInfo = "Circle Image";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2A2B2021A2C9C0A00394696 /* Circle Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A2B2051A2C9C0A00394696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A2B2071A2C9C0A00394696 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2A2B2091A2C9C0A00394696 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2A2B20D1A2C9C0B00394696 /* Circle Image-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circle Image-Info.plist"; sourceTree = "<group>"; };
+		C2A2B20F1A2C9C0B00394696 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A2B2111A2C9C0B00394696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A2B2131A2C9C0B00394696 /* Circle Image-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circle Image-Prefix.pch"; sourceTree = "<group>"; };
+		C2A2B2141A2C9C0B00394696 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		C2A2B2151A2C9C0B00394696 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		C2A2B2171A2C9C0B00394696 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2A2B21D1A2C9C0B00394696 /* Circle ImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle ImageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A2B21E1A2C9C0B00394696 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2A2B2261A2C9C0B00394696 /* Circle ImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circle ImageTests-Info.plist"; sourceTree = "<group>"; };
+		C2A2B2281A2C9C0B00394696 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A2B22A1A2C9C0B00394696 /* Circle_ImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle_ImageTests.m; sourceTree = "<group>"; };
+		C2A2B2341A2C9C5600394696 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2A2B2351A2C9C5600394696 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C2A2B2371A2C9D2100394696 /* UIImage+water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+water.h"; sourceTree = "<group>"; };
+		C2A2B2381A2C9D2100394696 /* UIImage+water.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+water.m"; sourceTree = "<group>"; };
+		C2A2B23A1A2C9DC000394696 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A2B1FF1A2C9C0A00394696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B2081A2C9C0A00394696 /* CoreGraphics.framework in Frameworks */,
+				C2A2B20A1A2C9C0A00394696 /* UIKit.framework in Frameworks */,
+				C2A2B2061A2C9C0A00394696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A2B21A1A2C9C0B00394696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B21F1A2C9C0B00394696 /* XCTest.framework in Frameworks */,
+				C2A2B2211A2C9C0B00394696 /* UIKit.framework in Frameworks */,
+				C2A2B2201A2C9C0B00394696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A2B1F91A2C9C0A00394696 = {
+			isa = PBXGroup;
+			children = (
+				C2A2B20B1A2C9C0B00394696 /* Circle Image */,
+				C2A2B2241A2C9C0B00394696 /* Circle ImageTests */,
+				C2A2B2041A2C9C0A00394696 /* Frameworks */,
+				C2A2B2031A2C9C0A00394696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A2B2031A2C9C0A00394696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B2021A2C9C0A00394696 /* Circle Image.app */,
+				C2A2B21D1A2C9C0B00394696 /* Circle ImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A2B2041A2C9C0A00394696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B2051A2C9C0A00394696 /* Foundation.framework */,
+				C2A2B2071A2C9C0A00394696 /* CoreGraphics.framework */,
+				C2A2B2091A2C9C0A00394696 /* UIKit.framework */,
+				C2A2B21E1A2C9C0B00394696 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A2B20B1A2C9C0B00394696 /* Circle Image */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B2141A2C9C0B00394696 /* JSAppDelegate.h */,
+				C2A2B2151A2C9C0B00394696 /* JSAppDelegate.m */,
+				C2A2B2341A2C9C5600394696 /* RootViewController.h */,
+				C2A2B2351A2C9C5600394696 /* RootViewController.m */,
+				C2A2B2371A2C9D2100394696 /* UIImage+water.h */,
+				C2A2B2381A2C9D2100394696 /* UIImage+water.m */,
+				C2A2B23A1A2C9DC000394696 /* icon.png */,
+				C2A2B2171A2C9C0B00394696 /* Images.xcassets */,
+				C2A2B20C1A2C9C0B00394696 /* Supporting Files */,
+			);
+			path = "Circle Image";
+			sourceTree = "<group>";
+		};
+		C2A2B20C1A2C9C0B00394696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B20D1A2C9C0B00394696 /* Circle Image-Info.plist */,
+				C2A2B20E1A2C9C0B00394696 /* InfoPlist.strings */,
+				C2A2B2111A2C9C0B00394696 /* main.m */,
+				C2A2B2131A2C9C0B00394696 /* Circle Image-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2A2B2241A2C9C0B00394696 /* Circle ImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B22A1A2C9C0B00394696 /* Circle_ImageTests.m */,
+				C2A2B2251A2C9C0B00394696 /* Supporting Files */,
+			);
+			path = "Circle ImageTests";
+			sourceTree = "<group>";
+		};
+		C2A2B2251A2C9C0B00394696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2B2261A2C9C0B00394696 /* Circle ImageTests-Info.plist */,
+				C2A2B2271A2C9C0B00394696 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A2B2011A2C9C0A00394696 /* Circle Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A2B22E1A2C9C0B00394696 /* Build configuration list for PBXNativeTarget "Circle Image" */;
+			buildPhases = (
+				C2A2B1FE1A2C9C0A00394696 /* Sources */,
+				C2A2B1FF1A2C9C0A00394696 /* Frameworks */,
+				C2A2B2001A2C9C0A00394696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Image";
+			productName = "Circle Image";
+			productReference = C2A2B2021A2C9C0A00394696 /* Circle Image.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A2B21C1A2C9C0B00394696 /* Circle ImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A2B2311A2C9C0B00394696 /* Build configuration list for PBXNativeTarget "Circle ImageTests" */;
+			buildPhases = (
+				C2A2B2191A2C9C0B00394696 /* Sources */,
+				C2A2B21A1A2C9C0B00394696 /* Frameworks */,
+				C2A2B21B1A2C9C0B00394696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A2B2231A2C9C0B00394696 /* PBXTargetDependency */,
+			);
+			name = "Circle ImageTests";
+			productName = "Circle ImageTests";
+			productReference = C2A2B21D1A2C9C0B00394696 /* Circle ImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A2B1FA1A2C9C0A00394696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JS;
+				TargetAttributes = {
+					C2A2B21C1A2C9C0B00394696 = {
+						TestTargetID = C2A2B2011A2C9C0A00394696;
+					};
+				};
+			};
+			buildConfigurationList = C2A2B1FD1A2C9C0A00394696 /* Build configuration list for PBXProject "Circle Image" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2A2B1F91A2C9C0A00394696;
+			productRefGroup = C2A2B2031A2C9C0A00394696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A2B2011A2C9C0A00394696 /* Circle Image */,
+				C2A2B21C1A2C9C0B00394696 /* Circle ImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A2B2001A2C9C0A00394696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B23B1A2C9DC000394696 /* icon.png in Resources */,
+				C2A2B2101A2C9C0B00394696 /* InfoPlist.strings in Resources */,
+				C2A2B2181A2C9C0B00394696 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A2B21B1A2C9C0B00394696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B2291A2C9C0B00394696 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A2B1FE1A2C9C0A00394696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B2121A2C9C0B00394696 /* main.m in Sources */,
+				C2A2B2391A2C9D2100394696 /* UIImage+water.m in Sources */,
+				C2A2B2161A2C9C0B00394696 /* JSAppDelegate.m in Sources */,
+				C2A2B2361A2C9C5600394696 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A2B2191A2C9C0B00394696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A2B22B1A2C9C0B00394696 /* Circle_ImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A2B2231A2C9C0B00394696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2B2011A2C9C0A00394696 /* Circle Image */;
+			targetProxy = C2A2B2221A2C9C0B00394696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2A2B20E1A2C9C0B00394696 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A2B20F1A2C9C0B00394696 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2A2B2271A2C9C0B00394696 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A2B2281A2C9C0B00394696 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A2B22C1A2C9C0B00394696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2A2B22D1A2C9C0B00394696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A2B22F1A2C9C0B00394696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Image/Circle Image-Prefix.pch";
+				INFOPLIST_FILE = "Circle Image/Circle Image-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2A2B2301A2C9C0B00394696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Image/Circle Image-Prefix.pch";
+				INFOPLIST_FILE = "Circle Image/Circle Image-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2A2B2321A2C9C0B00394696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circle Image.app/Circle Image";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Image/Circle Image-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Circle ImageTests/Circle ImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2A2B2331A2C9C0B00394696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circle Image.app/Circle Image";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Image/Circle Image-Prefix.pch";
+				INFOPLIST_FILE = "Circle ImageTests/Circle ImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A2B1FD1A2C9C0A00394696 /* Build configuration list for PBXProject "Circle Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A2B22C1A2C9C0B00394696 /* Debug */,
+				C2A2B22D1A2C9C0B00394696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A2B22E1A2C9C0B00394696 /* Build configuration list for PBXNativeTarget "Circle Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A2B22F1A2C9C0B00394696 /* Debug */,
+				C2A2B2301A2C9C0B00394696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2A2B2311A2C9C0B00394696 /* Build configuration list for PBXNativeTarget "Circle ImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A2B2321A2C9C0B00394696 /* Debug */,
+				C2A2B2331A2C9C0B00394696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A2B1FA1A2C9C0A00394696 /* Project object */;
+}
