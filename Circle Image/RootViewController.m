@@ -23,7 +23,7 @@
     UIImageView * imageView = [[UIImageView alloc]init];
     [imageView setFrame:CGRectMake(100, 100, 100, 100)];
     /**
-     *  创建一个带水印的图片
+     *  创建一个带环的图片
      *
      *  @param Name 图片的名字
      *  @param borderWidth   环的宽度
