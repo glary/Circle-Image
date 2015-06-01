@@ -3,8 +3,8 @@
 //  shuiyin
 //
 //  Created by mac on 14-11-15.
-//  Copyright (c) 2014年 lanou. All rights reserved.
-//
+//  Copyright (c) 2014年 glary. All rights reserved.
+//  
 
 #import <UIKit/UIKit.h>
 
